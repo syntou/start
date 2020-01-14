@@ -1,4 +1,4 @@
-function hu(n) {
+function hu(n):boolean {
   let i: number = n;
   let m: number = 0;
   while (i > 0) {
@@ -7,7 +7,7 @@ function hu(n) {
   }
   return m == n;
 }
-function wen() {
+function wen():void {
   let a: number = 484;
   let b: Boolean;
   b = hu(a);
